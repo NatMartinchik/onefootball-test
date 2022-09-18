@@ -1,5 +1,5 @@
 /// <reference types="cypress" />
-describe('Demo Test', () => {
+describe('Search Test', () => {
     it('Should open home page', () => {
       cy.visitHomepage()
     })
