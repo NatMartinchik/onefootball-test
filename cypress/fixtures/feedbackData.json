@@ -1,7 +1,7 @@
 {
   "summary": "test summary",
   "message": "test message",
-  "full_name": "test name",
+  "full_name": "test full name",
   "company": "test company",
   "email": "test@test.com"
 }
