@@ -1,4 +1,4 @@
 node_modules
 reports
-cypress/screenshots
 cypress/videos
+cypress/screenshots/demo.spec.ts
