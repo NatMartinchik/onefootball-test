@@ -4,12 +4,12 @@ describe('Search Test', () => {
       cy.visitHomepage()
     })
 
-    it('should open search input', () => {
+    it('Should open search input', () => {
       cy.get('of-search-icon[class="page-header-v2__link-icon"]').click() 
       cy.url().should('include', 'en/search')
     })
 
-    it('should fill search input', () => {
+    it('Should fill search input', () => {
       cy.get('input[enterkeyhint="search"]').click()
       cy.get('input[enterkeyhint="search"]')
         .type('Chelsea')
